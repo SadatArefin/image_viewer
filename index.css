@@ -16,10 +16,13 @@ body {
 
 #modalImage {
   max-height: 80vh;
-  max-width: 80vw;
-  display: block; /* Ensures image is block and can be centered if modal-body is text-align: center */
-  margin-left: auto; /* For centering block elements */
-  margin-right: auto; /* For centering block elements */
+  /* Adjust max-width to leave space for side buttons */
+  /* It will be the smaller of 80vw or (100% of modal-body width - 120px for buttons) */
+  max-width: min(80vw, calc(100% - 120px));
+  display: block; /* Ensures margin auto works for centering */
+  margin-left: auto; /* Centers the image horizontally */
+  margin-right: auto; /* Centers the image horizontally */
+  object-fit: contain; /* Ensures the image scales nicely within the bounds */
 }
 
 .modal-body {

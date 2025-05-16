@@ -9,19 +9,17 @@ document.addEventListener('DOMContentLoaded', () => {
   // IMPORTANT: Add your image paths here relative to the HTML file
   // For example: let images = ['img/image1.jpg', 'img/photo2.png', 'img/animation.gif'];
   let images = [
+    'img/454270476_1034148404744429_3276657939339336870_n.jpg',
     'img/4D5CBBAA-624C-460D-B8A0-589BFC3C3787.jpg',
-    'img/8B2A7260.JPG',
-    'img/8B2A7261.JPG',
-    'img/8B2A7262.JPG',
-    'img/8B2A7263.JPG',
-    'img/8B2A7426.JPG',
-    'img/8B2A7429.JPG',
     'img/8B2A7522.JPG',
-    'img/8B2A8201.JPG',
-    'img/8B2A8205.JPG',
-    'img/8B2A8856.JPG'
-    // Add other images from your img folder here if needed,
-    // supporting .jpg, .jpeg, .png, .webp, .gif
+    'img/8B2A8856.JPG',
+    'img/media_20240903_154642_2920115454841718783.jpg',
+    'img/media_20240903_154642_4080684745815290745.jpg',
+    'img/media_20240903_154642_6134122389741576655.jpg',
+    'img/media_20240903_154642_8548799659848934276.jpg',
+    'img/NEDCON_-_Rensa_17.jpg',
+    'img/steve-johnson-_0iV9LmPDn0-unsplash.jpg',
+    'img/Team.png'
   ];
 
   let currentIndex = 0;

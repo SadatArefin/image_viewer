@@ -35,7 +35,7 @@ The JavaScript code in `index.js` will automatically read the images from the `i
 
 - HTML5
 - CSS3
-  - Bootstrap 5.3
+- Bootstrap 5.3
 - JavaScript (ES6+)
 
 ## Live Demo
